@@ -1,0 +1,91 @@
+.navbar {
+  background: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .navbarText {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarText div {
+  flex: 1;
+}
+
+.navbarText .logo {
+  flex: 2;
+}
+
+.section1 {
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 .mainText {
+  width: 250px;
+  color: #f9faf8;
+}
+
+.section1 button {
+  background: #3882f6;
+  color: #f9faf8;
+  font-weight: 800;
+  border: 0px;
+}
+
+.section1 img {
+  width: 160px;
+}
+
+.section2 .header {
+  color: #1f2937;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section2 .tiles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section2 .square {
+  border: 2px solid #3882f6;
+  height: 80px;
+  width: 80px;
+}
+
+.section2 .caption {
+  text-align: center;
+  font-size: 10px;
+}
+
+.section3 {
+  background: #e5e7eb;
+  text-align: center;
+}
+
+.section4 .banner {
+  background: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section4 button {
+  background: #3882f6;
+  border: 1px solid white;
+  color: white;
+}
+
+.footer {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+}
