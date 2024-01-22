@@ -1,3 +1,13 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
 .navbar {
   background: #1f2937;
   color: #f9faf8;
@@ -6,7 +16,7 @@
 }
 
 .navbar .navbarText {
-  width: 800px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
 }
@@ -17,18 +27,36 @@
 
 .navbarText .logo {
   flex: 2;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.navbarText .headerLink {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .section1 {
   background: #1f2937;
   display: flex;
   justify-content: center;
+}
+
+.section1 .data {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 1000px;
 }
 
 .section1 .mainText {
-  width: 250px;
+  width: 600px;
   color: #f9faf8;
+}
+
+.section1 h1 {
+  font-size: 48px;
+  font-weight: 800;
 }
 
 .section1 button {
@@ -39,7 +67,19 @@
 }
 
 .section1 img {
-  width: 160px;
+  width: 250px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section2 .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
 }
 
 .section2 .header {
@@ -51,13 +91,17 @@
 .section2 .tiles {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 .section2 .square {
   border: 2px solid #3882f6;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
+}
+
+.section2 p {
+  width: 100px;
 }
 
 .section2 .caption {
@@ -68,14 +112,49 @@
 .section3 {
   background: #e5e7eb;
   text-align: center;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
 }
 
-.section4 .banner {
+.section3 .data {
+  width: 400px;
+}
+
+.section3 .quote {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.section3 .quoted {
+  text-align: right;
+  font-weight: 800;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.section4 .data {
   background: #3882f6;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 1000px;
+}
+
+.section4 .actionCall {
+  font-size: 800;
+}
+
+.section1 .signUp {
+  color: #e5e7eb;
 }
 
 .section4 button {
@@ -88,4 +167,8 @@
   background: #1f2937;
   color: white;
   text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
