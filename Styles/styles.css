@@ -64,17 +64,19 @@ body {
   background: #1f2937;
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 60vh;
 }
 
 .section1 .data {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1000px;
+  width: 90%;
 }
 
 .section1 .mainText {
-  width: 600px;
+  width: 60%;
   color: #f9faf8;
 }
 
@@ -86,51 +88,61 @@ body {
 .section1 button {
   background: #3882f6;
   color: #f9faf8;
-  font-weight: 800;
+  font-weight: bold;
   border: 0px;
 }
 
+/* Area for Improvement? - control of image size*/
 .section1 img {
-  width: 250px;
+  width: 100%;
 }
 
 .section2 {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .section2 .data {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1000px;
+  width: 90%;
 }
 
-.section2 .header {
+.section2 .heading {
   color: #1f2937;
+  font-size: 36px;
   font-weight: 800;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section2 .tiles {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  width: 100%;
+  gap: 2%;
 }
 
-.section2 .square {
-  border: 2px solid #3882f6;
-  height: 100px;
-  width: 100px;
+.section2 .tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
 }
 
-.section2 p {
-  width: 100px;
+.section2 img {
+  width: 100%;
 }
 
 .section2 .caption {
+  width: 100%;
   text-align: center;
-  font-size: 10px;
+  font-size: large;
 }
 
 .section3 {
