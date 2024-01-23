@@ -5,36 +5,44 @@
 /* .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-self: flex-start;
+
+  height: 100vh;
+  width: 100%;
 } */
 
 .navbar {
   background: #1f2937;
   color: #f9faf8;
   display: flex;
-  justify-content: center;
-}
-
-.navbar .navbarText {
-  width: 1000px;
-  display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.navbarText div {
-  flex: 1;
-}
-
-.navbarText .logo {
-  flex: 2;
+.navbar .logo {
   font-size: 24px;
   color: #f9faf8;
 }
 
-.navbarText .headerLink {
+.navbar .links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+  padding-right: 30px;
 }
 
 .section1 {
