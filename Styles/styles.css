@@ -7,6 +7,15 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+}
+
 /* .container {
   display: flex;
   flex-direction: column;
@@ -32,11 +41,10 @@ body {
   width: 90%;
 }
 
-.navbarText .logo a {
+.navbarText .logo {
   font-size: 24px;
   font-weight: 800;
   color: #f9faf8;
-  text-decoration: none;
 }
 
 .navbarText .links {
@@ -51,14 +59,9 @@ body {
   padding: 0;
 }
 
-.navbarText .links a {
-  text-decoration: none;
+.navbarText .links {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.navbarText a:hover {
-  color: white;
 }
 
 .section1 {
@@ -185,24 +188,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  width: 100%;
+  height: 25vh;
 }
 
 .section4 .data {
   background: #3882f6;
-  color: white;
+  border-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1000px;
+  width: 90%;
+  height: 15vh;
+}
+
+.section4 .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section4 .actionCall {
+  font-size: 36px;
   font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
 }
 
 .section4 .signUp {
-  color: #f9faf8;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
 }
 
 .section4 button {
