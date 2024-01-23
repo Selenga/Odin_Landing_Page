@@ -26,7 +26,7 @@ body {
   width: 100%;
 }
 
-.navbar .navbarText {
+.navbarText {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -38,22 +38,26 @@ body {
   text-decoration: none;
 }
 
-.navbar .navbarText .links {
+.navbarText .links {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
 
-.navbar .navbarText ul {
+.navbarText ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.navbar .navbarText .links a {
+.navbarText .links a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.navbarText a:hover {
+  color: white;
 }
 
 .section1 {
